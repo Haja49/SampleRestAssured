@@ -1,0 +1,13 @@
+{
+    "fields": {
+       "project":
+       {
+          "key": "RA"
+       },
+       "summary": "New Defect",
+       "description": "New Bug from Postman",
+       "issuetype": {
+          "name": "Bug"
+       }
+   }
+}
