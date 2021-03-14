@@ -31,7 +31,7 @@ public class CreateChangeRequest {
 		headers.put("accept", "application/xml");
 
 		// Post the request
-		// RestAssured.basic("admin", "Dhigiahasan@1"); (alternate authorization)
+		// RestAssured.basic("admin", "xyz"); (alternate authorization)
 		Response response = RestAssured.given().contentType(ContentType.JSON)
 				// .header(new Header("content-type", "application/json"))
 				.headers(headers)
