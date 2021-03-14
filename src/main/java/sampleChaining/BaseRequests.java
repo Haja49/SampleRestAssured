@@ -15,7 +15,7 @@ public class BaseRequests {
 		RestAssured.baseURI = "https://dev61202.service-now.com/api/now/table/change_request";
 
 		// Authorization
-		RestAssured.authentication = RestAssured.basic("admin", "Dhigiahasan@1");
+		RestAssured.authentication = RestAssured.basic("admin", "xxx");
 
 		// Get log headers
 		headers = RestAssured.given().log().headers();
